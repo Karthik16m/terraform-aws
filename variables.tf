@@ -13,7 +13,7 @@ variable "region" {
 }
 
 variable "ami" {
-  default = "ami-09d95fab7fff3776c"
+  default = "ami-0d8d212151031f51c"
 }
 
 variable "instance_type" {
