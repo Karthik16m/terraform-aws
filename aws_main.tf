@@ -31,7 +31,7 @@ resource "aws_instance" "app_server" {
       type        = "ssh"
       host        = self.public_ip
       user        = "ec2-user"
-      private_key = file("/home/karthik/terraform/aws/ssh/id_rsa.ppk")
+      private_key = file("/home/ec2-user/.ssh/id_rsa")
       timeout     = "4m"
    }
 }
